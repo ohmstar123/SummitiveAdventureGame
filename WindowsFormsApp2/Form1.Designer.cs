@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.outputLabel = new System.Windows.Forms.Label();
             this.bluebuttonLabel = new System.Windows.Forms.Label();
             this.redbuttonLabel = new System.Windows.Forms.Label();
@@ -39,11 +40,12 @@
             // 
             // outputLabel
             // 
+            this.outputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.Location = new System.Drawing.Point(12, 9);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(454, 257);
             this.outputLabel.TabIndex = 0;
-            this.outputLabel.Text = "label1";
+            this.outputLabel.Text = resources.GetString("outputLabel.Text");
             // 
             // bluebuttonLabel
             // 
@@ -74,27 +76,27 @@
             this.blueLabel.AutoSize = true;
             this.blueLabel.Location = new System.Drawing.Point(118, 312);
             this.blueLabel.Name = "blueLabel";
-            this.blueLabel.Size = new System.Drawing.Size(35, 13);
+            this.blueLabel.Size = new System.Drawing.Size(121, 13);
             this.blueLabel.TabIndex = 4;
-            this.blueLabel.Text = "label1";
+            this.blueLabel.Text = "Help Ethan with the tent";
             // 
             // redLabel
             // 
             this.redLabel.AutoSize = true;
             this.redLabel.Location = new System.Drawing.Point(118, 363);
             this.redLabel.Name = "redLabel";
-            this.redLabel.Size = new System.Drawing.Size(35, 13);
+            this.redLabel.Size = new System.Drawing.Size(142, 13);
             this.redLabel.TabIndex = 5;
-            this.redLabel.Text = "label2";
+            this.redLabel.Text = "Help Jacob grab some water";
             // 
             // greenLabel
             // 
             this.greenLabel.AutoSize = true;
             this.greenLabel.Location = new System.Drawing.Point(118, 412);
             this.greenLabel.Name = "greenLabel";
-            this.greenLabel.Size = new System.Drawing.Size(35, 13);
+            this.greenLabel.Size = new System.Drawing.Size(151, 13);
             this.greenLabel.TabIndex = 6;
-            this.greenLabel.Text = "label3";
+            this.greenLabel.Text = "Help Ryan find some fire wood";
             // 
             // Form1
             // 
@@ -110,6 +112,7 @@
             this.Controls.Add(this.outputLabel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="outputLabel.Text" xml:space="preserve">
+    <value>It is Friday the 13th of October, 1980 You decide to go camping with your friends, Ethan, Jacob, and Ryan. You guys realize that you're the only ones there at the camp. You decide a place to start setting up. Ethan starts building the tent, Jacob goes to the lake to get some water, and Ryan goes to find some fire wood. What do you want to do?</value>
+  </data>
 </root>
