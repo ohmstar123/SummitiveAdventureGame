@@ -33,21 +33,30 @@ namespace WindowsFormsApp2
             }
             else if (e.KeyCode == Keys.B)  //blue button press
             {
-
+                if (scene == 0)
+                {
+                    scene = 9;
+                }
             }
             else if (e.KeyCode == Keys.Space) //green button press
             {
-
+                if (scene == 0)
+                {
+                    scene = 4;
+                }
             }
 
             //shows options and text based on what scene you are on
             switch (scene)
             {
                 case 0:  //start scene 
-                    outputLabel.Text = "It is Friday the 13th of October, 1980 You decide to go camping with your friends ";
+                    outputLabel.Text = "It is Friday the 13th of October, 1980 You decide to go camping with your friends, Ethan, Jacob, and Ryan. You guys realize that you're the only ones there at the camp. You decide a place to start setting up. Ethan starts building the tent, Jacob goes to the lake to get some water, and Ryan goes to find some fire wood. What do you want to do? ";
+                    blueLabel.Text = "Help Ethan with the tent";
+                    redLabel.Text = "Help Jacob grab some water";
+                    greenLabel.Text = "Help Ryan find some fire wood";
                     break;
                 case 1:
-
+                   
                     break;
                 case 2:
 
