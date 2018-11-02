@@ -237,39 +237,39 @@ namespace WindowsFormsApp2
                     greenLabel.Text = "Continue";
                     break;
                 case 4:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "You catch up to Ryan and start helping him find some firewood. While you do, you see something shining in the distance";
+                    blueLabel.Text = "Go check what it is";
+                    redLabel.Text = "Ignore it";
                     greenLabel.Text = "";
                     break;
                 case 5:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "As you get closer, you realize its a hockey mask";
+                    blueLabel.Text = "Take it to show your friends";
+                    redLabel.Text = "Leave it where you found it";
                     greenLabel.Text = "";
                     break;
                 case 6:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You decide to ignore it head back to the tent since your arms were full of firewood. On your way back to the tent you leg falls into a beartrap and you start yelling for help but no one hears you. You see Jason approach you and decapitates you";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 7:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You pick up the mask and turn around where Jason is standing with his machete. He cuts off your arm and takes the mask with him. You fall to the ground and bleed to death";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 8:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You decide to leave it there since its not yours and head back to the tent since Ryan was taking too long finding enough firewood";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 9:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "You stay with Ethan and help him set up the tent. While you do, you spot a cabin in the distance";
+                    blueLabel.Text = "Check it out";
+                    redLabel.Text = "Stay with Ethan";
                     greenLabel.Text = "";
                     break;
                 case 10:
@@ -309,9 +309,9 @@ namespace WindowsFormsApp2
                     greenLabel.Text = "Continue";
                     break;
                 case 16:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "You see a empty cabinet near by so you decide to jump in but while you are hiding inside you hear Jacob yelling your name as if he was searching for you";
+                    blueLabel.Text = "Stay hidden in the cabinet";
+                    redLabel.Text = "Go outside to warn Jacob about Jason";
                     greenLabel.Text = "";
                     break;
                 case 17:
@@ -321,22 +321,22 @@ namespace WindowsFormsApp2
                     greenLabel.Text = "Continue";
                     break;
                 case 18:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "You decide to stay hidden and hear Jacob being killed outside";
+                    blueLabel.Text = "Make a run";
+                    redLabel.Text = "Stay hidden";
                     greenLabel.Text = "";
                     break;
                 case 19:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You jump out of the cabinet and run to outside to go warn Jacob but then your foot gets stuck in a bear trap right in front of the door. Jason kills Jacob in front of you, then grabs you and burns you alive in the fireplace located inside the cabin";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 20:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You start running while Jason is distracted. You find your way to the cops and they escort you to safety. Ryan was never found";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 21:
                     outputLabel.Text = "You look around and find a fully loaded shotgun underneath a table";
@@ -357,58 +357,58 @@ namespace WindowsFormsApp2
                     greenLabel.Text = "Continue";
                     break;
                 case 24:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You decide to stay hidden but you start getting nervous. Jason hears you breathing heavily and lunges at the cabinet with his machete. It pierces thourght your neck";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 25:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "You see a car parked outside of the cabin. Inside the cabin you find some fuel and the car keys to the car but you can't use it since it doesn't have a battery";
+                    blueLabel.Text = "Go search for the battery";
+                    redLabel.Text = "Head back to the tent";
                     greenLabel.Text = "";
                     break;
                 case 26:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "You stay with Ethan since the cabin doesn't belong to you. Out of no where, you here Ryan yelling for help";
+                    blueLabel.Text = "Stay at the tent";
+                    redLabel.Text = "Go find Ryan";
                     greenLabel.Text = "";
                     break;
                 case 27:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "You search the cabin even more but don't find the battery. As you look out the window, you spot a different cabin in the distance";
+                    blueLabel.Text = "Check the other cabin";
+                    redLabel.Text = "Head back to the tent";
                     greenLabel.Text = "";
                     break;
                 case 28:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "You search the new cabin and find the battery and decide to head back to the car. When you arrive, you see Ethan hung up to the first cabin you found yelling for help";
+                    blueLabel.Text = "Drive away";
+                    redLabel.Text = "Help Ethan";
                     greenLabel.Text = "";
                     break;
                 case 29:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You decide to quickly get in the car, leave Ethan to die, and drive away to safety. Jacob and Ryan were never found";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 30:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You help Ethan by getting him on the ground as you do, Jason grabs on to you and hangs you up instead. Ethan takes the battery, fuel, and car keys then ditches you and drives away. You run out of oxygen and suffocate";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 31:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "Ethan thinks you are scared so he goes by himself looking for Ryan. While you watch him go, Jason sneaks up behind you and stabs you in the spine";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 32:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You go on the search for Ryan but instead fall into a ditch that was camouflaged by the leaves. You look up and see Jason standing there and he throws his machete right into your lungs";
                     blueLabel.Text = "";
                     redLabel.Text = "";
-                    greenLabel.Text = "";
+                    greenLabel.Text = "Continue";
                     break;
                 case 33:
                     outputLabel.Text = "You Died\nWant to play again?";
@@ -417,9 +417,9 @@ namespace WindowsFormsApp2
                     greenLabel.Text = "";
                     break;
                 case 34:
-                    outputLabel.Text = "";
-                    blueLabel.Text = "";
-                    redLabel.Text = "";
+                    outputLabel.Text = "You escaped!\nWant to play again";
+                    blueLabel.Text = "Yes";
+                    redLabel.Text = "No";
                     greenLabel.Text = "";
                     break;
                 case 35:
