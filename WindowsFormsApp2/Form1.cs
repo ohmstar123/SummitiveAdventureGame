@@ -30,7 +30,7 @@ namespace WindowsFormsApp2
             int cabinoptions;
 
             Random randgen = new Random();
-            lakeoptions = randgen.Next(1, 11);
+            lakeoptions = randgen.Next(1, 6);
             cabinoptions = randgen.Next(1, 3);
 
             if (e.KeyCode == Keys.M)       //red button press
@@ -249,7 +249,7 @@ namespace WindowsFormsApp2
                     greenLabel.Text = "";
                     break;
                 case 6:
-                    outputLabel.Text = "You decide to ignore it head back to the tent since your arms were full of firewood. On your way back to the tent you leg falls into a beartrap and you start yelling for help but no one hears you. You see Jason approach you and decapitates you";
+                    outputLabel.Text = "You decide to ignore it head back to the tent since your arms were full of firewood.";
                     blueLabel.Text = "";
                     redLabel.Text = "";
                     greenLabel.Text = "Continue";
