@@ -22,6 +22,8 @@ namespace WindowsFormsApp2
             blueLabel.Text = "Help Ethan with the tent";
             redLabel.Text = "Help Jacob grab some water";
             greenLabel.Text = "Help Ryan find some fire wood";
+            imageLabel.Image = Properties.Resources.Sign;
+            
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -217,24 +219,28 @@ namespace WindowsFormsApp2
                     blueLabel.Text = "Help Ethan with the tent";
                     redLabel.Text = "Help Jacob grab some water";
                     greenLabel.Text = "Help Ryan find some fire wood";
+                    imageLabel.Image = Properties.Resources.Sign;
                     break;
                 case 1:
                     outputLabel.Text = "You catch up to Jacob and help him out grab some water but as you do you see some ripples in the distance. You ask yourself if you should check out what it could be";
                     blueLabel.Text = "Check it out";
                     redLabel.Text = "Ignore it";
                     greenLabel.Text = "";
+                    imageLabel.Image = Properties.Resources.Ripples;
                     break;
                 case 2:
                     outputLabel.Text = "You look closer into the water and Jason grabs you and drowns you";
                     blueLabel.Text = "";
                     redLabel.Text = "";
                     greenLabel.Text = "Continue";
+                    imageLabel.Image = Properties.Resources.Drowned;
                     break;
                 case 3:
                     outputLabel.Text = "As you look closer, a fish jumps out. You decide to take the fish with you later for dinner. You can't hold onto the fish very well so you decide to run back to the camp before Jacob";
                     blueLabel.Text = "";
                     redLabel.Text = "";
                     greenLabel.Text = "Continue";
+                    imageLabel.Image = Properties.Resources.Fish;
                     break;
                 case 4:
                     outputLabel.Text = "You catch up to Ryan and start helping him find some firewood. While you do, you see something shining in the distance";
