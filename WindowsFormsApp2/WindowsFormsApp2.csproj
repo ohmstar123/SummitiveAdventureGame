@@ -170,5 +170,14 @@
   <ItemGroup>
     <None Include="Resources\Tent.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crickets.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JasonBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\396799__scorpion67890__male-death-2.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace WindowsFormsApp2
 {
@@ -28,6 +29,8 @@ namespace WindowsFormsApp2
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
+            SoundPlayer player = new SoundPlayer(Properties.Resources.DeathSound);
+
             int lakeoptions;
             int cabinoptions;
 
@@ -222,7 +225,7 @@ namespace WindowsFormsApp2
                     imageBox.BackgroundImage = Properties.Resources.Sign;
                     break;
                 case 1:
-                    outputLabel.Text = "You catch up to Jacob and help him out grab some water but as you do you see some ripples in the distance. You ask yourself if you should check out what it could be";
+                    outputLabel.Text = "You catch up to Jacob and help him out by grabbing some water but as you do you see some ripples in the distance. You ask yourself if you should check out what it could be";
                     blueLabel.Text = "Check it out";
                     redLabel.Text = "Ignore it";
                     greenLabel.Text = "";
@@ -345,7 +348,7 @@ namespace WindowsFormsApp2
                     blueLabel.Text = "Make a run";
                     redLabel.Text = "Stay hidden";
                     greenLabel.Text = "";
-                    //Someone dying sounds, NO IMAGE
+                    player.Play();
                     break;
                 case 19:
                     outputLabel.Text = "You jump out of the cabinet and run to outside to go warn Jacob but then your foot gets stuck in a bear trap right in front of the door. Jason kills Jacob in front of you, then grabs you and burns you alive in the fireplace located inside the cabin";
@@ -429,7 +432,7 @@ namespace WindowsFormsApp2
                     blueLabel.Text = "";
                     redLabel.Text = "";
                     greenLabel.Text = "Continue";
-                    //Minecraft death noise, NO IMAGE
+                    player.Play();
                     break;
                 case 31:
                     outputLabel.Text = "Ethan thinks you are scared so he goes by himself looking for Ryan. While you watch him go, Jason sneaks up behind you and stabs you in the spine";

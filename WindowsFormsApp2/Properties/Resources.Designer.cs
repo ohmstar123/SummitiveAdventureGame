@@ -161,6 +161,15 @@ namespace WindowsFormsApp2.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream DeathSound {
+            get {
+                return ResourceManager.GetStream("DeathSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Drowned {
@@ -246,6 +255,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap Hung {
             get {
                 object obj = ResourceManager.GetObject("Hung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JasonBackground {
+            get {
+                object obj = ResourceManager.GetObject("JasonBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

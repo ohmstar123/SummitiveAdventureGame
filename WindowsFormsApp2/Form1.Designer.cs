@@ -43,6 +43,7 @@
             // outputLabel
             // 
             this.outputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.outputLabel.Location = new System.Drawing.Point(12, 9);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(489, 167);
@@ -52,6 +53,7 @@
             // blueLabel
             // 
             this.blueLabel.AutoSize = true;
+            this.blueLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.blueLabel.Location = new System.Drawing.Point(62, 312);
             this.blueLabel.Name = "blueLabel";
             this.blueLabel.Size = new System.Drawing.Size(121, 13);
@@ -61,6 +63,7 @@
             // redLabel
             // 
             this.redLabel.AutoSize = true;
+            this.redLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.redLabel.Location = new System.Drawing.Point(62, 364);
             this.redLabel.Name = "redLabel";
             this.redLabel.Size = new System.Drawing.Size(142, 13);
@@ -70,6 +73,7 @@
             // greenLabel
             // 
             this.greenLabel.AutoSize = true;
+            this.greenLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.greenLabel.Location = new System.Drawing.Point(62, 413);
             this.greenLabel.Name = "greenLabel";
             this.greenLabel.Size = new System.Drawing.Size(151, 13);
@@ -103,9 +107,9 @@
             // imageBox
             // 
             this.imageBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imageBox.Location = new System.Drawing.Point(270, 179);
+            this.imageBox.Location = new System.Drawing.Point(353, 179);
             this.imageBox.Name = "imageBox";
-            this.imageBox.Size = new System.Drawing.Size(464, 259);
+            this.imageBox.Size = new System.Drawing.Size(381, 259);
             this.imageBox.TabIndex = 7;
             this.imageBox.TabStop = false;
             // 
@@ -113,6 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Firebrick;
             this.ClientSize = new System.Drawing.Size(746, 450);
             this.Controls.Add(this.imageBox);
             this.Controls.Add(this.greenLabel);
