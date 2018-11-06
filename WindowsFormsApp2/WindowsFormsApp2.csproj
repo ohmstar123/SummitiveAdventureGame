@@ -104,5 +104,71 @@
   <ItemGroup>
     <None Include="Resources\Fish.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deathjpeg.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YouEscaped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firewood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JasonMaskjpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BagHeadJason.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cabin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Machete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-twotoone-99xiG8AQNyys.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeadwithHatchet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\911.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beartrap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yelling.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fireplace.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cops.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shotgun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-twotoone-3Cxz1oB56gBy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeadBody.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tent.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

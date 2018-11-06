@@ -33,10 +33,11 @@
             this.blueLabel = new System.Windows.Forms.Label();
             this.redLabel = new System.Windows.Forms.Label();
             this.greenLabel = new System.Windows.Forms.Label();
-            this.imageLabel = new System.Windows.Forms.Label();
             this.greenbuttonLabel = new System.Windows.Forms.Label();
             this.redbuttonLabel = new System.Windows.Forms.Label();
             this.bluebuttonLabel = new System.Windows.Forms.Label();
+            this.imageBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox)).BeginInit();
             this.SuspendLayout();
             // 
             // outputLabel
@@ -44,7 +45,7 @@
             this.outputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.Location = new System.Drawing.Point(12, 9);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(484, 198);
+            this.outputLabel.Size = new System.Drawing.Size(489, 167);
             this.outputLabel.TabIndex = 0;
             this.outputLabel.Text = resources.GetString("outputLabel.Text");
             // 
@@ -75,13 +76,6 @@
             this.greenLabel.TabIndex = 6;
             this.greenLabel.Text = "Help Ryan find some fire wood";
             // 
-            // imageLabel
-            // 
-            this.imageLabel.Location = new System.Drawing.Point(255, 207);
-            this.imageLabel.Name = "imageLabel";
-            this.imageLabel.Size = new System.Drawing.Size(479, 234);
-            this.imageLabel.TabIndex = 7;
-            // 
             // greenbuttonLabel
             // 
             this.greenbuttonLabel.Image = global::WindowsFormsApp2.Properties.Resources.green_50x50;
@@ -106,12 +100,21 @@
             this.bluebuttonLabel.Size = new System.Drawing.Size(100, 51);
             this.bluebuttonLabel.TabIndex = 1;
             // 
+            // imageBox
+            // 
+            this.imageBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imageBox.Location = new System.Drawing.Point(270, 179);
+            this.imageBox.Name = "imageBox";
+            this.imageBox.Size = new System.Drawing.Size(464, 259);
+            this.imageBox.TabIndex = 7;
+            this.imageBox.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(746, 450);
-            this.Controls.Add(this.imageLabel);
+            this.Controls.Add(this.imageBox);
             this.Controls.Add(this.greenLabel);
             this.Controls.Add(this.redLabel);
             this.Controls.Add(this.blueLabel);
@@ -123,6 +126,7 @@
             this.Name = "Form1";
             this.Text = "Friday the 13th";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,7 +141,7 @@
         private System.Windows.Forms.Label blueLabel;
         private System.Windows.Forms.Label redLabel;
         private System.Windows.Forms.Label greenLabel;
-        private System.Windows.Forms.Label imageLabel;
+        private System.Windows.Forms.PictureBox imageBox;
     }
 }
 

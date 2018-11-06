@@ -118,17 +118,68 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BagHeadJason" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BagHeadJason.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beartrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beartrap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="blue_50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue_50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cabin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cabin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\car.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="choking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\choking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cops.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeadBody" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeadBody.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Deathjpeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deathjpeg.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Drowned" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Drowned.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fireplace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fireplace.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firewood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firewood.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Fish" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="GasandKeys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgonline-com-ua-twotoone-3Cxz1oB56gBy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="green_50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\green_50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HatchetandLAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgonline-com-ua-twotoone-99xiG8AQNyys.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeadwithHatchet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeadwithHatchet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hung.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JasonMaskjpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JasonMaskjpg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Machete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Machete.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Phone.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="red_50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red_50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +187,22 @@
   <data name="Ripples" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ripples.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shotgun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sign.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yelling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yelling.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YouEscaped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YouEscaped.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_911" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\911.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
