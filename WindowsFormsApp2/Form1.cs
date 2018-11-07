@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Threading;
 
 namespace WindowsFormsApp2
 {
@@ -15,6 +16,9 @@ namespace WindowsFormsApp2
     {
         //Scene number and track where person is at
         int scene = 0;
+
+        SoundPlayer player = new SoundPlayer(Properties.Resources.DeathSound);
+        SoundPlayer crickets = new SoundPlayer(Properties.Resources.crickets);
 
         public Form1()
         {
@@ -24,13 +28,12 @@ namespace WindowsFormsApp2
             redLabel.Text = "Help Jacob grab some water";
             greenLabel.Text = "Help Ryan find some fire wood";
             imageBox.BackgroundImage = Properties.Resources.Sign;
-            
+            crickets.Play();
+
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            SoundPlayer player = new SoundPlayer(Properties.Resources.DeathSound);
-
             int lakeoptions;
             int cabinoptions;
 
@@ -42,7 +45,7 @@ namespace WindowsFormsApp2
             {///////////////////////////////////////////////////
                 if (scene == 33 || scene == 34)
                 {
-                    this.Close();
+                    scene = 99;
                 }
                 else if (scene == 0)
                 {
@@ -223,6 +226,7 @@ namespace WindowsFormsApp2
                     redLabel.Text = "Help Jacob grab some water";
                     greenLabel.Text = "Help Ryan find some fire wood";
                     imageBox.BackgroundImage = Properties.Resources.Sign;
+                    crickets.Play();
                     break;
                 case 1:
                     outputLabel.Text = "You catch up to Jacob and help him out by grabbing some water but as you do you see some ripples in the distance. You ask yourself if you should check out what it could be";
@@ -265,6 +269,7 @@ namespace WindowsFormsApp2
                     redLabel.Text = "";
                     greenLabel.Text = "Continue";
                     imageBox.BackgroundImage = Properties.Resources.Tent;
+                    crickets.Play();
                     break;
                 case 7:
                     outputLabel.Text = "You pick up the mask and turn around where Jason is standing with his machete. He cuts off your arm and takes the mask with him. You fall to the ground and bleed to death";
@@ -279,6 +284,7 @@ namespace WindowsFormsApp2
                     redLabel.Text = "";
                     greenLabel.Text = "Continue";
                     imageBox.BackgroundImage = Properties.Resources.Tent;
+                    crickets.Play();
                     break;
                 case 9:
                     outputLabel.Text = "You stay with Ethan and help him set up the tent. While you do, you spot a cabin in the distance";
@@ -476,9 +482,16 @@ namespace WindowsFormsApp2
                     greenLabel.Text = "Continue";
                     imageBox.BackgroundImage = Properties.Resources.Beartrap;
                     break;
-
-
-
+                case 99:
+                    outputLabel.Text = "Thank you for playing";
+                    blueLabel.Text = "";
+                    redLabel.Text = "";
+                    greenLabel.Text = "";
+                    imageBox.BackgroundImage = Properties.Resources.ThankYou;
+                    Refresh();
+                    Thread.Sleep(2500);
+                    this.Close();
+                    break;
             }
         }
     }

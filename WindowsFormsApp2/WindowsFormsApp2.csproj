@@ -179,5 +179,11 @@
   <ItemGroup>
     <None Include="Resources\396799__scorpion67890__male-death-2.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crickets.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThankYou.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
