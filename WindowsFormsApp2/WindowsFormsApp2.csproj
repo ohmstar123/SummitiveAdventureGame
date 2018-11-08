@@ -185,5 +185,11 @@
   <ItemGroup>
     <None Include="Resources\ThankYou.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Evil Laugh.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crowd Cheering.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
